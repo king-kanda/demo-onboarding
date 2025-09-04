@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { NextStep, NextStepProvider } from 'nextstepjs';
+import steps from "@/components/steps";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +24,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <NextStepProvider>
+          <NextStep steps={steps} >
+          {children}
+          </NextStep>
+        </NextStepProvider>
       </body>
     </html>
   );
