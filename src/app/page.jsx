@@ -27,7 +27,7 @@ function Sidebar() {
         </a>
       </nav>
       <div className="px-6 py-4 border-t border-gray-200 dark:border-gray-800 text-xs text-gray-400 dark:text-gray-500">
-        &copy; 2025 MyApp
+        &copy; 2025 From Okanda Labs
       </div>
     </aside>
   );
