@@ -7,7 +7,7 @@ const steps = [
         title: 'Welcome to the App!',
         content: (
           <>
-            <p>This is the main dashboard where you can see all your important information.</p>
+            <p>👋 Welcome! This is your main dashboard where you can see all your important information at a glance.</p>
             <p className="mt-2 text-sm text-gray-600">Let's explore the key features together!</p>
           </>
         ),
@@ -19,11 +19,11 @@ const steps = [
         pointerRadius: 10,
       },
       {
-        icon: <>🎯</>,
+        icon: <>⚡</>,
         title: 'Take Action Here',
         content: (
           <>
-            <p>These action buttons let you perform the most common tasks.</p>
+            <p>⚡ These quick action buttons let you perform the most common tasks in a flash.</p>
             <p className="mt-2 text-sm text-gray-600">Click any button to get started with your work!</p>
           </>
         ),
@@ -35,12 +35,12 @@ const steps = [
         pointerRadius: 10,
       },
       {
-        icon: <>🎯</>,
+        icon: <>📄</>,
         title: 'View and Upload Documents',
         content: (
           <>
-            <p>Here you can view and upload important documents related to your projects.</p>
-            <p className="mt-2 text-sm text-gray-600">Click any button to get started with your work!</p>
+            <p>📄 Here you can view and upload important documents related to your projects.</p>
+            <p className="mt-2 text-sm text-gray-600">Keep all your files organized and accessible.</p>
           </>
         ),
         selector: '#product-documents',
@@ -51,12 +51,12 @@ const steps = [
         pointerRadius: 10,
       },
       {
-        icon: <>🎯</>,
+        icon: <>🤖</>,
         title: 'Virtual Agent Assistance',
         content: (
           <>
-            <p>These action buttons let you perform the most common tasks.</p>
-            <p className="mt-2 text-sm text-gray-600">Click any button to get started with your work!</p>
+            <p>🤖 Need help? Our virtual agent is here to assist you with smart suggestions and support.</p>
+            <p className="mt-2 text-sm text-gray-600">Ask anything and get instant answers!</p>
           </>
         ),
         selector: '#virtual-agent',
@@ -67,12 +67,12 @@ const steps = [
         pointerRadius: 10,
       },
       {
-        icon: <></>,
+        icon: <>⚙️</>,
         title: 'Settings and Preferences',
         content: (
           <>
-            <p>Here you can customize your app settings and preferences.</p>
-            <p className="mt-2 text-sm text-gray-600">Click any button to get started with your work!</p>
+            <p>⚙️ Here you can customize your app settings and preferences to suit your workflow.</p>
+            <p className="mt-2 text-sm text-gray-600">Personalize your experience for maximum productivity.</p>
           </>
         ),
         selector: '#settings',
